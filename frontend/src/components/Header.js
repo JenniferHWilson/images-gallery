@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 import { Navbar } from 'react-bootstrap';
 
 const Header = () => {
@@ -8,6 +7,6 @@ const Header = () => {
             <Navbar.Brand href="/">Images Gallery</Navbar.Brand> 
         </Navbar>
     )
-}
+};
 
 export default Header;
